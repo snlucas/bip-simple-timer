@@ -13,6 +13,7 @@ export default class Timer {
 
   public get alarmMessage(): string {
     let config = workspace.getConfiguration('simpleTimer');
+
     if (config.showAlarm) {
       return config.alarmMessage;
     } else {
@@ -37,7 +38,13 @@ export default class Timer {
         clearInterval(this._timer);
         this._statusBarItem.hide();
 
-        if (this.alarmMessage) {
+        const player = require("play-sound")();
+        const musicFile = 'beep.wav';
+        let musicpath = `${__dirname.split("/").slice(0, -2).join("/")}/audios/${musicFile}`;//`/home/snlucas/Code/bip-simple-timer/audios/beep.wav`;
+
+        player.play(musicpath);
+  
+        if (this.alarmMessage) {          
           window.showInformationMessage(this.alarmMessage);
         }
       }
