@@ -42,3 +42,7 @@ Too awesome
 ### 1.0.0
 
 * Initial release of Simple Timer Beep
+
+
+### Resources
+- [Extension Image (created by Freepik - Flaticon)](https://www.flaticon.com/free-icons/clock)
