@@ -1,6 +1,6 @@
-# Simple Timer
+# Simple Timer Beep
 
-A simple timer for the VS Code Status Bar.
+A simple timer (with beep) for the VS Code Status Bar.
 
 ![Simple Timer In Action](https://i.imgur.com/LONhxX5.png)
 
@@ -20,6 +20,10 @@ Starts the timer. Specify a time in minutes.
 
 Stops the timer. It's very not complicated.
 
+### Beep
+
+The beep sound is triggered when the timer reaches zero.
+
 ## Extension Settings
 
 * `simpleTimer.showAlarm`: Show a notification when the timer runs out
@@ -37,5 +41,4 @@ Too awesome
 
 ### 1.0.0
 
-* Initial release of Simple Timer
-* First day of deep regret in allowing my child take violin lessons
+* Initial release of Simple Timer Beep
