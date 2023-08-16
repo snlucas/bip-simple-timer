@@ -1,21 +1,21 @@
 {
-  "name": "simple-timer",
-  "displayName": "Simple Timer",
-  "description": "A simple timer in the toolbar",
-  "version": "1.0.1",
-  "publisher": "burkeholland",
+  "name": "simple-timer-bip",
+  "displayName": "Simple Timer Bip",
+  "description": "A simple timer in the toolbar with beep sounds =D",
+  "version": "1.0.0",
+  "publisher": "snlucas",
   "icon": "images/timer.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/burkeholland/simple-timer.git"
+    "url": "https://github.com/snlucas/bip-simple-timer.git"
   },
   "keywords": ["React", "React JS", "React Snippets"],
   "engines": {
-    "vscode": "^1.13.0"
+    "vscode": "^1.82.0"
   },
   "categories": ["Other"],
-  "activationEvents": ["onCommand:extension.startTimer"],
-  "main": "./out/src/extension",
+  "activationEvents": [],
+  "main": "./out/src/extension.js",
   "contributes": {
     "configuration": {
       "type": "object",
@@ -49,15 +49,18 @@
   },
   "scripts": {
     "vscode:prepublish": "tsc -p ./",
-    "compile": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
+    "compile": "tsc -watch -p ./"
   },
   "devDependencies": {
-    "typescript": "^2.0.3",
-    "vscode": "^1.0.0",
+    "typescript": "^5.1.6",
+    "@types/vscode": "^1.81.0",
+    "@vscode/test-electron": "^2.3.4",
     "mocha": "^2.3.3",
     "@types/node": "^6.0.40",
-    "@types/mocha": "^2.2.32"
-  }
+    "@types/mocha": "^2.2.32",
+    "play-sound": "^1.1.5"
+  },
+  "dependencies": {
+		"play-sound": "^1.1.5"
+	}
 }
