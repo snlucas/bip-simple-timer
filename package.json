@@ -2,18 +2,24 @@
   "name": "simple-timer-bip",
   "displayName": "Simple Timer Bip",
   "description": "A simple timer in the toolbar with beep sounds =D",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "snlucas",
   "icon": "images/timer.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/snlucas/bip-simple-timer.git"
   },
-  "keywords": ["React", "React JS", "React Snippets"],
+  "keywords": [
+    "React",
+    "React JS",
+    "React Snippets"
+  ],
   "engines": {
     "vscode": "^1.81.0"
   },
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
   "activationEvents": [],
   "main": "./out/src/extension.js",
   "contributes": {
@@ -24,8 +30,7 @@
         "simpleTimer.showAlarm": {
           "type": "boolean",
           "default": true,
-          "description":
-            "Determines if a notification is shown when the timer expires",
+          "description": "Determines if a notification is shown when the timer expires",
           "scope": "resource"
         },
         "simpleTimer.alarmMessage": {
@@ -61,6 +66,6 @@
     "play-sound": "^1.1.5"
   },
   "dependencies": {
-		"play-sound": "^1.1.5"
-	}
+    "play-sound": "^1.1.5"
+  }
 }
