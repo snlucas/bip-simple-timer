@@ -39,12 +39,14 @@ export default class Timer {
         this._statusBarItem.hide();
 
         const player = require("play-sound")();
-        const musicFile = 'beep.wav';
-        let musicpath = `${__dirname.split("/").slice(0, -2).join("/")}/audios/${musicFile}`;//`/home/snlucas/Code/bip-simple-timer/audios/beep.wav`;
+        const path = require("node:path");
+
+        const musicFile = "beep.wav";
+        let musicpath = path.join(__dirname, `../../audios/${musicFile}`);
 
         player.play(musicpath);
   
-        if (this.alarmMessage) {          
+        if (this.alarmMessage) {
           window.showInformationMessage(this.alarmMessage);
         }
       }
