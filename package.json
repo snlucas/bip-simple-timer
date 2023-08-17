@@ -11,7 +11,7 @@
   },
   "keywords": ["React", "React JS", "React Snippets"],
   "engines": {
-    "vscode": "^1.82.0"
+    "vscode": "^1.81.0"
   },
   "categories": ["Other"],
   "activationEvents": [],
