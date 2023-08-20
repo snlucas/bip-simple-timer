@@ -2,7 +2,7 @@
   "name": "simple-timer-bip",
   "displayName": "Simple Timer Bip",
   "description": "A simple timer in the toolbar with beep sounds =D",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "snlucas",
   "icon": "images/timer.png",
   "repository": {
@@ -58,8 +58,7 @@
     "@vscode/test-electron": "^2.3.4",
     "mocha": "^2.3.3",
     "@types/node": "^6.0.40",
-    "@types/mocha": "^2.2.32",
-    "play-sound": "^1.1.5"
+    "@types/mocha": "^2.2.32"
   },
   "dependencies": {
     "play-sound": "^1.1.5"
