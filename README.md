@@ -2,7 +2,7 @@
 
 A simple timer (with beep) for the VS Code Status Bar.
 
-![Simple Timer In Action](https://i.imgur.com/LONhxX5.png)
+![Simple Timer In Action](https://i.imgur.com/vOuzx8r.png)
 
 ## Features
 
