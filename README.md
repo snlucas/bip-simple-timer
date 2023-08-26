@@ -2,7 +2,7 @@
 
 A simple timer (with beep) for the VS Code Status Bar.
 
-[Install it from the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=snlucas.simple-timer-bip)
+Install it from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=snlucas.simple-timer-bip)
 
 ![Simple Timer In Action](https://i.imgur.com/vOuzx8r.png)
 
